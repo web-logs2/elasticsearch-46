@@ -1,0 +1,3 @@
+# ElasticSearch
+
+根据dll生成elasticsearch实体类和对应的字段常量
