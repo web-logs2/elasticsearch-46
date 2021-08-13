@@ -13,13 +13,11 @@ namespace ElasticSearch
         /// <summary>
         /// 项目名称
         /// </summary>
-        [JsonProperty("projectName")]
         public string ProjectName { get; set; }
 
         /// <summary>
         /// CodeFirst 程序集名称
         /// </summary>
-        [JsonProperty("assemblyName")]
         public string AssemblyName { get; set; }
 
         /// <summary>
