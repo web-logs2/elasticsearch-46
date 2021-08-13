@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 
 namespace ElasticSearch.Service
 {
@@ -29,7 +30,7 @@ namespace ElasticSearch.Service
             param.ParentGroupId = elasticSearchConfig.ParentGroupId;
             param.ParentArtifactId = elasticSearchConfig.ParentArtifactId;
             param.ParentVersion = elasticSearchConfig.ParentVersion;
-            param.Properties = elasticSearchConfig.Properties;
+            param.Properties = new Dictionary<string, string>();
 
             package.Add("elasticsearch.json", JsonConvert.SerializeObject(param, Formatting.Indented, new JsonSerializerSettings
             {
