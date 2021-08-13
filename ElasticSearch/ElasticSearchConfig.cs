@@ -22,7 +22,6 @@ namespace ElasticSearch
         public string ParentArtifactId { get; set; }
         public string ParentVersion { get; set; }
 
-        public Dictionary<string, string> Properties { get; set; }
         public Dictionary<string, string> BuiltInProperties { get; set; }
     }
 }

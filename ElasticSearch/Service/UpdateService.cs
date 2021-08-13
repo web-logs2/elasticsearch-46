@@ -45,6 +45,9 @@ namespace ElasticSearch.Service
                 GroupId = param.GroupId,
                 ArtifactId = param.ArtifactId,
                 Version = param.Version,
+                ParentGroupId = param.ParentGroupId,
+                ParentArtifactId = param.ParentArtifactId,
+                ParentVersion = param.ParentVersion,
                 Properties = param.Properties,
                 BuiltInProperties = elasticSearchConfig.BuiltInProperties
             }.TransformText());
