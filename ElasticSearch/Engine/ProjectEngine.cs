@@ -21,7 +21,7 @@ namespace ElasticSearch.Engine
             project.RootNamespace = this.RootNamespace;
             project.WithDocumentationFile = true;
 
-            project.AddPackageReference("Panosen.ElasticSearch", "0.0.2");
+            project.AddPackageReference("Panosen.ElasticSearch", "0.2.3");
 
             return project.TransformText();
         }
