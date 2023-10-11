@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="Panosen.CodeDom.CSharp.Engine" Version="1.6.2" />
+    <PackageReference Include="Panosen.CodeDom.CSharp.Engine" Version="1.7.0" />
     <PackageReference Include="Panosen.CodeDom.CSharpProject.Engine" Version="1.0.7" />
     <PackageReference Include="Panosen.CodeDom.Pom.Engine" Version="1.1.0" />
     <PackageReference Include="Panosen.ElasticSearch.Java.Engine" Version="0.4.3" />
